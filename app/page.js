@@ -3,9 +3,9 @@ import Link from "next/link";
 const HomePage = () => {
   return (
     <div>
-      <h1 className="text-7xl">Home Page</h1>
-      <Link href={"/about"} className="text-4xl">
-        About Page
+      <h1 className="text-5xl mb-8 font-bold">Home Page</h1>
+      <Link href={"/about"} className="btn btn-accent">
+        Get Started
       </Link>
     </div>
   );
